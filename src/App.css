@@ -9,21 +9,26 @@
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color: #fff5eb;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
   margin: 0;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .container {
   margin: 30px auto;
   width: 350px;
-}
 
+
+}
+h2{
+    font-family: 'Stint Ultra Condensed', cursive;
+    font-size: 40px;
+}
 h1 {
   letter-spacing: 1px;
   margin: 0;
@@ -41,7 +46,8 @@ h4 {
 }
 
 .inc-exp-container {
-  background-color: #fff;
+  background-color: #fdfaf6;
+  border-radius: 25px;
   box-shadow: var(--box-shadow);
   padding: 20px;
   display: flex;
