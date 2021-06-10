@@ -9,19 +9,7 @@ export const Transactions = () => {
             Cash<span>-$400</span>
             <button className="delete-btn">x </button>{' '}
           </li>
-          <li className="minus">
-            Cash<span>-$400</span>
-            <button className="delete-btn">x </button>{' '}
-          </li>
-
-          <li className="minus">
-            Cash<span>-$400</span>
-            <button className="delete-btn">x </button>{' '}
-          </li>
-          <li className="plus">
-            AMC<span>+$400</span>
-            <button className="delete-btn">x </button>{' '}
-          </li>
+          
         </ul>
       </>
     );
