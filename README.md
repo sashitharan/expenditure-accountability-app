@@ -1,4 +1,4 @@
-## Project Name & Pitch
+## expenditure-accountability-app
 
 #### Example:
 
