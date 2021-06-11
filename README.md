@@ -27,7 +27,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#Tech-Stack">Built With</a></li>
+        <li><a href="#Tech-Stack">Technology Stack</a></li>
       </ul>
     </li>
     <li>
@@ -49,24 +49,26 @@
 ![](sasa.gif)
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
  
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+I decided to create a simple tracker to track my expenses as i'm starting to lose track of my spendings. This app is straightforward, nothing fancy and serves it deep purpose of being a tracker. 
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+My idea behind this:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others (including myself)
+* Simple minimalistic UI design to be straightforward as possible.
+* Utilised a Web application in order to serve people who are not familiar with utilising an App store (Older Gen) to download applications. 
+* Can be used on all mobile platforms including the common Android OS and iOS
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+## Tech Stack
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+Frameworks used to built my project.
+### Frontend
+* [HTML](https://getbootstrap.com)
+* [CSS](https://jquery.com)
+* [React Js](https://laravel.com)
 
-### Tech Stack
-
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
+### Backend
+* [Node Js](https://laravel.com)
+* [Express Js](https://laravel.com)
+* [MongoDB](https://laravel.com)
 
 
 <!-- GETTING STARTED -->
