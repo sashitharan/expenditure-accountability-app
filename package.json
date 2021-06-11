@@ -4,10 +4,14 @@
   "description": "Backend for Expense Tracker",
   "main": "server.js",
   "scripts": {
-    "start": "node server",
-    "server": "nodemon server",
+    "build": "cd frontend && npm run build",
+    "install-client": "cd frontend && npm install",
+    "server": "nodemon server.js",
     "client": "npm start --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "npm run install-client && npm run build",
+    "develop": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix frontend\"",
+    "start": "concurrently --kill-others-on-fail \"npm run server\" \"npm run start --prefix frontend\""
   },
   "author": "Sashitharan",
   "license": "MIT",
@@ -16,10 +20,9 @@
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
     "mongoose": "^5.12.13",
-    "morgan": "^1.10.0"
-  },
-  "devDependencies": {
+    "morgan": "^1.10.0",
     "concurrently": "^6.2.0",
     "nodemon": "^2.0.7"
-  }
+  },
+  "devDependencies": {}
 }
