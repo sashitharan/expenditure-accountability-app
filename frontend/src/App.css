@@ -160,6 +160,25 @@ input[type='number'] {
 .list li:hover .delete-btn {
   opacity: 1;
 }
+.wrapper {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    word-wrap: break-word;
+}
+.hoc {
+    display: block;
+    margin: 0 auto;
+}
+.row5 {
+    color: #064420;
+    background-color: #fff5eb;
+}
+
+
 
 @media (max-width: 320px) {
   .container {
