@@ -7,11 +7,13 @@ const connectDB = require('./config/db');
 
 dotenv.config({path: './config/config.env'});
 
-
 connectDB();
 
 const transaction = require('./routes/transaction');
 const app = express();
+
+
+app.use(express.json());
 
 // app.get('/', (req,res)=> res.send('Hello'));
 
