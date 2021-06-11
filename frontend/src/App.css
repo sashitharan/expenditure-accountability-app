@@ -28,6 +28,7 @@ body {
 h2{
     font-family: 'Stint Ultra Condensed', cursive;
     font-size: 40px;
+    text-align: center;
 }
 h1 {
   letter-spacing: 1px;
@@ -168,6 +169,7 @@ input[type='number'] {
     padding: 20px;
     text-align: center;
     word-wrap: break-word;
+
 }
 .hoc {
     display: block;
