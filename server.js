@@ -15,9 +15,14 @@ const app = express();
 
 app.use(express.json());
 
+
+if(process.env.NODE_ENV === 'development'){
+    app.use(morgan('dev'));
+}
+
 // app.get('/', (req,res)=> res.send('Hello'));
 
-app.use('/api/v1/transaction', transaction);
+app.use('/api/v1/transactions', transaction);
 
 
 const PORT = process.env.PORT || 5000;
