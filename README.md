@@ -11,7 +11,7 @@
 <br />
 <p align="center">
   <a href="https://inmywallet.herokuapp.com/">
-    <img src="images/logo.png" alt="Logo" width="900" height="450">
+    <img src="images/logo.png" alt="Logo" width="700" height="450">
   </a>
 
   <h3 align="center">InMyWallet App</h3>
@@ -19,13 +19,9 @@
   <p align="center">
    An Expenditure Accountability App
     <br />
-    <br />
-    <br />
     <a href="https://inmywallet.herokuapp.com/">View Demo WebApp</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
