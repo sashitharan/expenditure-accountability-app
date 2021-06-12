@@ -3,7 +3,6 @@
 
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -45,8 +44,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
-![](sasa.gif)
+## About The App
+![Gif](sasa.gif)
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
  
 I decided to create a simple tracker to track my expenses as i'm starting to lose track of my spendings. This app is straightforward, nothing fancy and serves it deep purpose of being a tracker. 
@@ -56,6 +56,12 @@ My idea behind this:
 * Simple minimalistic UI design to be straightforward as possible.
 * Utilised a Web application in order to serve people who are not familiar with utilising an App store (Older Gen) to download applications. 
 * Can be used on all mobile platforms including the common Android OS and iOS
+
+## Web App
+
+The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. Hence, if you are planning to use this app subjectively, do use the static web app uploaded onto netlify as the data will be stored in your own browser storage and can be used personally.
+
+The react web app was made to enhance the static web app into a react web app. Just for experience purposes.
 
 ## Tech Stack
 
