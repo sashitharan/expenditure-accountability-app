@@ -41,7 +41,7 @@ export const AddTransaction = () => {
             placeholder="Enter any amount... "
           />
         </div>
-        <label> (Expenses = -x.xx / Huat = x.xx )</label>
+        <label> (Eg. Expenses = -100 / Huat = 100 )</label>
         <button className="btn">Proceed</button>
       </form>
     </>
