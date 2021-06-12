@@ -65,7 +65,7 @@ My idea behind this:
 ### (iOS 14.5 - iPhone 12 Pro Max)
 ![](images/MainDemo2.gif) 
  
-![](images/final update.gif) 
+![](images/netlifyFinal.gif) 
 
 ## Web App
 
