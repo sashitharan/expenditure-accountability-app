@@ -122,11 +122,23 @@ To get a local copy up and running follow these simple example steps.
  
  # Frontend only
  npm run client
+ ```
  
- # To Build client
- cd client
+ # To Build Frontend 
+ Remember to do this whenever you make changes in the frontend as i did not incorporate the server to npm run build
+ ```
+ cd frontend
  npm run build
   ```
+ To make the server run the build command: 
+ ```
+ cd .. (go to root)
+ Go to package.json
+ ```
+  edit heroku postbuild to: 
+ ```JS
+ "heroku-postbuild": "npm run install-client && npm run build",
+ ```
  # Production
  Remember to change environment variable in config.env fileto 'production' or 'development'
    ```JS
