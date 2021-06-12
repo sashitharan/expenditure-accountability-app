@@ -68,8 +68,14 @@ My idea behind this:
 ## On Netlify 
 ### (iOS 14.5 - iPhone 12 Pro Max)
 Netlify Version: <a href="https://inmywallet.netlify.app">Try me!</a>
- 
+
 ![](images/netlifyFinal.gif) 
+
+## Adding the Web Application to your Homescreen.     
+### (Android 11.0 - Pixel 4)
+![](images/android.gif)
+
+
 
 ## Web App
 
