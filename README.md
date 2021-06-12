@@ -79,7 +79,10 @@ Netlify Version: <a href="https://inmywallet.netlify.app">Try me!</a>
 
 ## Web App
 
-The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. Hence, if you are planning to use this app subjectively, do use the static web app uploaded onto netlify as the data will be stored in your own browser storage and can be used personally.
+The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. 
+Hence, if you are planning to use this app subjectively, do use the static web uploaded onto netlify 
+<a href="https://inmywallet.netlify.app">((click here!))</a> 
+as the data will be stored in your own browser storage and can be used personally.
 
 The react web app was made to enhance the static web app into a react web app. Just for experience purposes.
 
