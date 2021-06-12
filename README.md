@@ -65,9 +65,9 @@ My idea behind this:
 ### (iOS 14.5 - iPhone 12 Pro Max)
 ![](images/MainDemo2.gif) 
 
-### On Netlify 
+## On Netlify 
 ### (iOS 14.5 - iPhone 12 Pro Max)
-<a href="https://inmywallet.netlify.app">click me</a>
+Netlify Version: <a href="https://inmywallet.netlify.app">Try me!</a>
  
 ![](images/netlifyFinal.gif) 
 
