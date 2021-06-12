@@ -15,9 +15,9 @@
   <p align="center">
    An Expenditure Accountability App
     <br />
-    <a href="https://inmywallet.herokuapp.com/">Click here to test the web app live</a>
+    <a href="https://inmywallet.herokuapp.com/">React Web App (Heroku)</a>
   <br/>
-    <a href="https://inmywallet.netlify.app/">Click here to view the static website</a>
+    <a href="https://inmywallet.netlify.app/">Static Web App (Netlify)</a>
   </p>
 </p>
 
