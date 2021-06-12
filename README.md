@@ -1,9 +1,5 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
-
 
 
 
@@ -30,7 +26,7 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#Tech-Stack">Technology Stack</a></li>
       </ul>
     </li>
     <li>
@@ -41,50 +37,53 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
 
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
-![](sasa.gif)
+## About The App
+![Gif](sasa.gif)
+
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
+ 
+I decided to create a simple tracker to track my expenses as i'm starting to lose track of my spendings. This app is straightforward, nothing fancy and serves it deep purpose of being a tracker. 
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need -- I think this is it.
+My idea behind this:
+* Your time should be focused on creating something amazing. A project that solves a problem and helps others (including myself)
+* Simple minimalistic UI design to be straightforward as possible.
+* Utilised a Web application in order to serve people who are not familiar with utilising an App store (Older Gen) to download applications. 
+* Can be used on all mobile platforms including the common Android OS and iOS
 
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
+## Web App
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have have contributed to expanding this template!
+The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. Hence, if you are planning to use this app subjectively, do use the static web app uploaded onto netlify as the data will be stored in your own browser storage and can be used personally.
 
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+The react web app was made to enhance the static web app into a react web app. Just for experience purposes.
 
-### Built With
+## Tech Stack
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
+Frameworks used to built my project.
+### Frontend
+* [HTML](https://getbootstrap.com)
+* [CSS](https://jquery.com)
+* [React Js](https://laravel.com)
 
+### Backend
+* [Node Js](https://laravel.com)
+* [Express Js](https://laravel.com)
+* [MongoDB](https://laravel.com)
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
 * npm
   ```sh
   npm install npm@latest -g
@@ -92,18 +91,17 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/sashitharan/expenditure-accountability-app.git
    ```
-3. Install NPM packages
+2. Install NPM packages
    ```sh
    npm install
    ```
-4. Enter your API in `config.js`
+3. Change config.env file in config folder in `config.env`
    ```JS
-   const API_KEY = 'ENTER YOUR API';
+   MONGO_URI = 'ENTER YOUR URI';
    ```
 
 
@@ -111,19 +109,33 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
-
-
-
+  ``` npm install
+ cd frontend 
+ npm install
+ cd .. (Go back to root)
+ 
+ # Run frontend and backend concurrently
+ npm run dev
+ 
+ # Backend only
+ npm run server
+ 
+ # Frontend only
+ npm run client
+ 
+ # To Build client
+ cd client
+ npm run build
+  ```
+ # Production
+ Remember to change environment variable in config.env fileto 'production' or 'development'
+   ```JS
+   NODE_ENV = production;
+   ```
+Once in Production
+   ```
+   npm start
+ ```
 
 <!-- LICENSE -->
 ## License
@@ -137,16 +149,11 @@ Lets Connect - [@Sashitharan](https://www.linkedin.com/in/sashitharan/) - sarshe
 
 Project Link: [https://github.com/sashitharan/expenditure-accountability-app](https://github.com/sashitharan/expenditure-accountability-app)
 
+Web Application Link: [https://inmywallet.herokuapp.com/](https://inmywallet.herokuapp.com/)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
