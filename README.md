@@ -64,8 +64,12 @@ My idea behind this:
 ## Hot Reloading support shown in both Browser and Application
 ### (iOS 14.5 - iPhone 12 Pro Max)
 ![](images/MainDemo2.gif) 
+
+## On Netlify 
+### (iOS 14.5 - iPhone 12 Pro Max)
+Netlify Version: <a href="https://inmywallet.netlify.app">Try me!</a>
  
-![](images/final update.gif) 
+![](images/netlifyFinal.gif) 
 
 ## Web App
 
