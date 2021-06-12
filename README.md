@@ -10,12 +10,14 @@
     <img src="images/logo.png" alt="Logo" width="700" height="450">
   </a>
 
-  <h3 align="center">InMyWallet App</h3>
+  <h3 align="center">In My Wallet App</h3>
 
   <p align="center">
    An Expenditure Accountability App
     <br />
-    <a href="https://inmywallet.herokuapp.com/">View Demo WebApp</a>
+    <a href="https://inmywallet.herokuapp.com/">Click here to test the web app live</a>
+  <br/>
+    <a href="https://inmywallet.netlify.app/">Click here to view the static website</a>
   </p>
 </p>
 
@@ -45,10 +47,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The App
-![Gif](sasa.gif)
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
- 
 I decided to create a simple tracker to track my expenses as i'm starting to lose track of my spendings. This app is straightforward, nothing fancy and serves it deep purpose of being a tracker. 
 
 My idea behind this:
@@ -57,6 +55,18 @@ My idea behind this:
 * Utilised a Web application in order to serve people who are not familiar with utilising an App store (Older Gen) to download applications. 
 * Can be used on all mobile platforms including the common Android OS and iOS
 
+# Live Demo 
+      
+## Adding the Web Application to your Homescreen.     
+### (iOS 14.5 - iPhone 12 Pro Max)
+![](images/MainDemo.gif) 
+
+## Hot Reloading support shown in both Browser and Application
+### (iOS 14.5 - iPhone 12 Pro Max)
+![](images/MainDemo2.gif) 
+ 
+![](images/final update.gif) 
+
 ## Web App
 
 The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. Hence, if you are planning to use this app subjectively, do use the static web app uploaded onto netlify as the data will be stored in your own browser storage and can be used personally.
@@ -64,17 +74,15 @@ The webapp comes with a backend server and a database to store the data. However
 The react web app was made to enhance the static web app into a react web app. Just for experience purposes.
 
 ## Tech Stack
-
-Frameworks used to built my project.
 ### Frontend
-* [HTML](https://getbootstrap.com)
-* [CSS](https://jquery.com)
-* [React Js](https://laravel.com)
+* [HTML](https://devdocs.io/html/)
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [React Js](https://reactjs.org/docs/getting-started.html)
 
 ### Backend
-* [Node Js](https://laravel.com)
-* [Express Js](https://laravel.com)
-* [MongoDB](https://laravel.com)
+* [Node Js](https://nodejs.org/en/docs/)
+* [Express Js](https://devdocs.io/express/)
+* [MongoDB](https://docs.mongodb.com/)
 
 
 <!-- GETTING STARTED -->
