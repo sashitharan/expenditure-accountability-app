@@ -56,7 +56,7 @@ My idea behind this:
 * Can be used on all mobile platforms including the common Android OS and iOS
 
 # Project UI
-![](images/UIDesign.jpeg) 
+![](images/UIDesign.jpg) 
 
 
 # Live Demo 
