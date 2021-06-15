@@ -55,6 +55,10 @@ My idea behind this:
 * Utilised a Web application in order to serve people who are not familiar with utilising an App store (Older Gen) to download applications. 
 * Can be used on all mobile platforms including the common Android OS and iOS
 
+# Project UI
+![](images/UIDesign.jpeg) 
+
+
 # Live Demo 
       
 ## Adding the Web Application to your Homescreen.     
