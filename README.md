@@ -15,9 +15,9 @@
   <p align="center">
    An Expenditure Accountability App
     <br />
-    <a href="https://inmywallet.herokuapp.com/">Click here to test the web app live</a>
+    <a href="https://inmywallet.herokuapp.com/">React Web App (Heroku)</a>
   <br/>
-    <a href="https://inmywallet.netlify.app/">Click here to view the static website</a>
+    <a href="https://inmywallet.netlify.app/">Static Web App (Netlify)</a>
   </p>
 </p>
 
@@ -68,12 +68,21 @@ My idea behind this:
 ## On Netlify 
 ### (iOS 14.5 - iPhone 12 Pro Max)
 Netlify Version: <a href="https://inmywallet.netlify.app">Try me!</a>
- 
+
 ![](images/netlifyFinal.gif) 
+
+## Adding the Web Application to your Homescreen.     
+### (Android 11.0 - Pixel 4)
+![](images/android.gif)
+
+
 
 ## Web App
 
-The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. Hence, if you are planning to use this app subjectively, do use the static web app uploaded onto netlify as the data will be stored in your own browser storage and can be used personally.
+The webapp comes with a backend server and a database to store the data. However, the web app has no authentication features to identify the individual who is using the app. This means that anyone can see your data being uploaded into the wallet app. 
+Hence, if you are planning to use this app subjectively, do use the static web uploaded onto netlify 
+<a href="https://inmywallet.netlify.app">((click here!))</a> 
+as the data will be stored in your own browser storage and can be used personally.
 
 The react web app was made to enhance the static web app into a react web app. Just for experience purposes.
 
