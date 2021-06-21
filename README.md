@@ -91,16 +91,24 @@ as the data will be stored in your own browser storage and can be used personall
 The react web app was made to enhance the static web app into a react web app. Just for experience purposes.
 
 ## Tech Stack
+Some of the technologies used in the development of this web application are as follow:
 ### Frontend
-* [HTML](https://devdocs.io/html/)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
-* [React Js](https://reactjs.org/docs/getting-started.html)
+* [HTML](https://devdocs.io/html/) - A markup language to display material retrieved over the net.
+* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS) - Style sheets used to format the layout of Web page.
+* [React Js](https://reactjs.org/docs/getting-started.html) - React.js: A JavaScript library for building user interfaces.
 
 ### Backend
-* [Node Js](https://nodejs.org/en/docs/)
-* [Express Js](https://devdocs.io/express/)
-* [MongoDB](https://docs.mongodb.com/)
+* [Node Js](https://nodejs.org/en/docs/) - A runtime environment to help build fast server applications using JS.
+* [Express Js](https://devdocs.io/express/) - A popular Node.js framework to build scalable server-side for web applications.
+* [MongoDB](https://docs.mongodb.com/) - It provides a free cloud service to store MongoDB collections.
+* [Heroku](https://heroku.com/) - A platform(PaaS) to deploy full stack web applications for free.
 
+
+### Others
+
+ - Mongoose: An ODM(Object Data Modelling)library for MongoDB and Node.js
+ - JSON Web Tokens or JWTs: A standard to securely authenticate HTTP requests
+ - Bootstrap 4: A popular framework for building responsive, mobile-first sites.
 
 <!-- GETTING STARTED -->
 ## Getting Started
