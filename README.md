@@ -26,7 +26,7 @@
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#about-the-app">About The App</a>
       <ul>
         <li><a href="#Tech-Stack">Technology Stack</a></li>
       </ul>
